@@ -7,8 +7,10 @@ import javax.servlet.http.*;
 import java.io.*;
 import java.util.Iterator;
 import java.util.List;
+import javax.servlet.GenericServlet;
 
 public class BeerSelect extends HttpServlet{
+
     public void doPost(HttpServletRequest request,
                        HttpServletResponse response)
                         throws IOException,ServletException{
